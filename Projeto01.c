@@ -97,7 +97,7 @@ int main(void) {
       buscarEmail();
       break;
       case 6:
-      imprimirUsuario(); // As vezes strings dao erro!?
+      imprimirUsuario(); // As vezes strings de nome dão erro!?
       break;
       case 7:
       if (idG[0] < 0) {
@@ -119,7 +119,7 @@ int main(void) {
         alturaG[j]=altura;
         vacinaG[j]=vacina;
         idG[j]=idFixo;
-        // Salva para restaruar
+        // Salva para restaurar
         strcpy(Rest_nomeG[j], nome);
         strcpy(Rest_emailG[j], email);
         strcpy(Rest_sexoG[j], sexo);
